@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  padding: 1px;
+  margin: 0px auto;
+  letter-spacing: 3px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #1c1d22;
+  font-family: "Apple SD Gothic Neo SemiBold", sans-serif;
+}
+body {
+margin: 10px 10px;
+font-family: Apple SD Gothic Neo SemiBold, Helvetica, sans-serif;
+    }
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 700px;
+  margin: 10px;
+  height: 20vh;
+  list-style: none;
+}
+
+.menu li {
+  width: 150px;
+  height: 50px;
+  -webkit-transition: background-position-x 0.9s linear;
+  transition: background-position-x 0.9s linear;
+  text-align: center;
+}
+.menu li a {
+  font-size: 33px;
+  color: #ff961f;
+  text-decoration: none;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
+}
+.menu li:hover {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEi%0D%0AIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhs%0D%0AaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIKCSB3aWR0%0D%0AaD0iMzkwcHgiIGhlaWdodD0iNTBweCIgdmlld0JveD0iMCAwIDM5MCA1MCIgZW5hYmxlLWJhY2tn%0D%0Acm91bmQ9Im5ldyAwIDAgMzkwIDUwIiB4bWw6c3BhY2U9InByZXNlcnZlIj4KPHBhdGggZmlsbD0i%0D%0Abm9uZSIgc3Ryb2tlPSIjZDk0ZjVjIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLW1pdGVybGlt%0D%0AaXQ9IjEwIiBkPSJNMCw0Ny41ODVjMCwwLDk3LjUsMCwxMzAsMAoJYzEzLjc1LDAsMjguNzQtMzgu%0D%0ANzc4LDQ2LjE2OC0xOS40MTZDMTkyLjY2OSw0Ni41LDI0My42MDMsNDcuNTg1LDI2MCw0Ny41ODVj%0D%0AMzEuODIxLDAsMTMwLDAsMTMwLDAiLz4KPC9zdmc+Cg==");
+  width: 150px;
+  -webkit-animation: line 1s;
+          animation: line 1s;
+}
+.menu li:hover a {
+  color: #d94f5c;
+}
+.menu li:not(:last-child) {
+  margin-right: 30px;
+}
+
+@-webkit-keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+
+@keyframes line {
+  0% {
+    background-position-x: 390px;
+  }
+}
+.img {
+width: 150px;
+height: 150px;
+float: left;
+margin: 0px auto;
+}
+.container {
+      min-width: 760px;
+    }
+.txt{
+        color: #ffae58;
+        decoration: none;
+        }
+.txt1{
+        color: #ffae58;
+        text-align: center;
+        decoration: none;
+        }
+.txt2{
+        color: #ffae58;
+        decoration: none;
+        }
+ a {
+     text-decoration: none;
+     color: #4c75a3;
+     }
+html {
+overflow-x: hidden;
+overflow-y: auto;
+     }
+::-webkit-scrollbar-button {
+background-image:url('');
+background-repeat:no-repeat;
+width:10px;
+height:0px
+}
+::-webkit-scrollbar-track {
+background-color:#36393E
+}
+
+::-webkit-scrollbar-thumb {
+-webkit-border-radius: 15px;
+border-radius: 15 px;
+background-color:#5e6064;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background-color:#ffae58;
+}
+
+::-webkit-resizer{
+background-image:url('');
+background-repeat:no-repeat;
+width: 15px;
+height: 0px
+}
+
+::-webkit-scrollbar{
+width: 15px;
+}
+.b1 {
+        float: right;
+        background-color: #ffae58;
+        width: auto;
+        height: 75px;
+        border-radius: 5px;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        margin-top: 2px;
+        margin-right: auto;
+        margin-left: auto;
+        white-space: normal;
+        color: #1c1d22;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        right: 50px;
+        top: 6%;
+
+    }
+    .b1:hover {
+      background: #36392E;
+      color: #ffae58;
+      }
+   p {
+    font-family: 'Apple SD Gothic Neo SemiBold', Times, serif;
+   }
+    p1 {
+     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    }
